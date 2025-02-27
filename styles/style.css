@@ -88,20 +88,6 @@
   text-transform: uppercase;
 }
 
-.aligned-text {
-  display: block;
-  margin-top: 20px;
-  line-height: 1;
-}
-
-.aligned-text_center {
-  text-align: center;
-}
-
-.aligned-text_right {
-  text-align: right;
-}
-
 .letter-spacing-extended {
   letter-spacing: 0.6em;
 }
