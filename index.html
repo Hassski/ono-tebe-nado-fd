@@ -13,9 +13,9 @@
     <header class="header content-section content-section-bright">
       <nav class="header_menu">
         <ul class="header_links-list">
-          <li class="header_links-list-item header_links-list-item-active"><a class="header_link header_link-active">главная</a></li>
-          <li class="header_links-list-item"><a class="header_link" href="#lots">посмотреть лоты</a></li>
-          <li class="header_links-list-item"><a class="header_link" href="#about">об аукционе</a></li>
+          <li class="header_links-list-item header__links-list-item_no-bullit" ><a class="header_link header_link-active">главная</a></li>
+          <li class="header_links-list-item header__links-list-item_no-bullit"><a class="header_link" href="#lots">посмотреть лоты</a></li>
+          <li class="header_links-list-item header__links-list-item_no-bullit"><a class="header_link" href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <a class="logo_link"><img class="header_logo" src="images/logo-black.svg" alt="Логотип Оно тебе надо"></a>
@@ -28,17 +28,9 @@
     <main>
       <section class="cover" id="cover">
         <div class="overlay"></div>
-        <h1 class="cover__title">
-          о<span class="letter-spacing-extended">но</span>
-          <span class="aligned-text aligned-text_center"
-            >те<span class="letter-spacing-extended">бe</span></span
-          >
-          <span class="aligned-text aligned-text_right"
-            ><span class="letter-spacing-extended">н</span>aд<span
-              class="no-letter-spacing"
-              >о</span
-            ></span
-          >
+        <h1 class="cover_title">
+          оно<span class="aligned-text aligned-text_center">тебе</span>
+          <span class="aligned-text aligned-text_right">надо</span>
         </h1>
         <div class="cover_footer">
           <p class="cover_footer-text">Аукцион вещей, в которые никто не верил</p>
@@ -49,6 +41,7 @@
         <h2 class="lots_title">Лоты</h2>
         <ul class="lots_cards-list">
           <li class="lots_cards-list-item">
+            <a href="#0" class="cards-link">                                                                       <!--29.02 возможно нужно сделать больше якорей в списке--> 
             <a href="#0" class="cards-link">
               <article class="lots_cards lots_cards-movie">
                 <div class="overlay"></div>
@@ -60,20 +53,23 @@
           <li class="lots_cards-list-item">
             <a href="#0" class="cards-link">
               <article class="lots_cards lots_cards-book">
+                <div class="overlay"></div>                                                                           
                 <div class="overlay"></div>
                 <h3 class="lots_cards-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                 <p class="lots_cards-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
               </article>
             </a>
           </li>
+          <li class="lots_cards-list-item">                                                                             <!--29.02 исправить подчёркивание^-->
           <li class="lots_cards-list-item">
             <a href="#0" class="cards-link">
               <article class="lots_cards lots_cards-painting">
                 <div class="overlay"></div>
                 <h3 class="lots_cards-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="lots_cards-text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+              </article>                                                                                     
+            </a>                                                                                                        <!--29.02 убрать подчёркивание^-->
               </article>
-            </a>
           </li>
         </ul>
         <a href="" class="lots_see-more">посмотреть больше</a>
@@ -97,16 +93,16 @@
       </address>
       <nav class="footer_menu">
         <ul class="footer_links-list">
-          <li class="footer_links-list-item footer_links-list-item-active"><a class="footer_link footer_link-active">главная</a></li>
+          <li class="footer_links-list-item"><a class="footer_link footer_link-active">главная</a></li>
           <li class="footer_links-list-item"><a class="footer_link" href="#lots">посмотреть лоты</a></li>
           <li class="footer_links-list-item"><a class="footer_link" href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <ul class="footer_social-list">
-        <li class="footer_social-list-item"><a href="https://youtube.com" class="footer_social-link"><img src="images/yt.svg" alt="YouTube иконка" class="footer_social-icon"></a></li>
-        <li class="footer_social-list-item"><a href="https://vk.com" class="footer_social-link"><img src="images/vk.svg" alt="Вконтакте иконка" class="footer_social-icon"></a></li>
-        <li class="footer_social-list-item"><a href="https://pinterest.com" class="footer_social-link"><img src="images/pinterest.svg" alt="Pinterest иконка" class="footer_social-icon"></a></li>
+        <li class="footer_social-list-item"><a href="https://youtube.com" target="_blank" class="footer_social-link"><img src="images/yt.svg" alt="YouTube иконка" class="footer_social-icon"></a></li>
+        <li class="footer_social-list-item"><a href="https://vk.com" target="_blank" class="footer_social-link"><img src="images/vk.svg" alt="Вконтакте иконка" class="footer_social-icon"></a></li>
+        <li class="footer_social-list-item"><a href="https://pinterest.com" target="_blank" class="footer_social-link"><img src="images/pinterest.svg" alt="Pinterest иконка" class="footer_social-icon"></a></li>
       </ul>
     </footer>
   </body>
-</html>                     <!--Когда то там я это доделаю но пока у меня кофеёк с печеньками :P -->
+</html>     
