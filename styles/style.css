@@ -32,7 +32,7 @@
   grid-column-start: 2;
   grid-column-end: 3;
   justify-self: center;
-  width: 140px;
+  width: 148px;
   height: 105px;
 }
 
@@ -45,10 +45,26 @@
   grid-column-start: 3;
   grid-column-end: 4;
   justify-self: end;
-  width: 230px;
+  width: 238px;
   font-size: 18px;
   line-height: 1.35;
 }
+
+.aligned-text {
+  display: block;
+  margin-top: 20px;
+  line-height: 1;
+} 
+
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
 
 .text-underline {
   text-decoration: underline;
@@ -170,7 +186,7 @@
 
 .lots_cards-title {                           /*29.02 исправить подчёркивание*/
   position: relative;
-  z-index: 1;
+  z-index: 2;
   color: #fff;
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -181,7 +197,7 @@
 
 .lots_cards-text {                             /*29.02 убрать подчёркивание*/
   position: relative;
-  z-index: 1;
+  z-index: 2;
   color: #fff;
   font-weight: normal;
   font-size: 20px;
