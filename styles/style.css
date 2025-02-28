@@ -170,6 +170,8 @@
 .card-link {
   text-decoration: none;
   cursor: pointer;
+  display: block;
+  color: inherit;
 }
 
 .lots_cards {
@@ -204,6 +206,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .lots_cards-movie {
@@ -309,4 +312,8 @@
 .footer_social-icon {
   width: 48px;
   height: 48px;
+}
+
+.no-underline {
+  text-decoration: none; 
 }
