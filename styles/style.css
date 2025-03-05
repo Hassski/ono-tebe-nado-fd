@@ -23,13 +23,17 @@
   list-style-type: none;
 }
 
-.header__links-list-item_no-bullit {
+.header__links-list-item {
+  padding-bottom: 4.6px;
+}
+
+.header__links {
   list-style-type: none;
   text-underline-offset: 4px;
   list-style-type: circle;
 }
 
-.no_mark {
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 
@@ -55,6 +59,7 @@
   font-size: 18px;
   line-height: 1.35;
   font-style: normal;
+  padding-bottom: 5px;
 }
 
 .text-underline {
@@ -82,13 +87,13 @@
   bottom: 0;
   left: 0;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cover_title {
   position: relative;
   z-index: 1;
-  margin-bottom: 133px;
+  margin-bottom: 112px;
   font-weight: 700;
   font-size: 100px;
   letter-spacing: 0.3em;
@@ -103,16 +108,14 @@
 
 .aligned-text_center {
   text-align: center;
-  position: relative;
-  transform: translate(15px, 6px);
+  padding-top: 8px;
+  padding-left: 30px;
 }
 
 .aligned-text_right {
   text-align: right;
-  margin-left: 60%;
-  margin-bottom: px;
-  position: relative;
-  transform: translate(13px, 21px);
+  margin-right: -30px;
+  margin-top: 34px;
 }
 
 .letter-spacing-extended {
@@ -133,13 +136,11 @@
   font-size: 22px;
   line-height: 1.27;
   text-transform: uppercase;
-  cursor: pointer;
 }
 
 .cover_footer-text {
   word-spacing: 18px;
-  position: relative;
-  transform: translate(-31px, 3px);
+  padding-right: 31px;
 }
 
 .cover_footer-button {
@@ -154,11 +155,12 @@
   text-transform: uppercase;
   background: transparent;
   text-align: center;
+  cursor: pointer;
 }
 
 .lots {
   position: relative;
-  margin-bottom: 90px;
+  margin-bottom: 100px;
   padding: 0 24px 55px;
 }
 
@@ -241,18 +243,17 @@
   font-size: 20px;
   line-height: 1;
   cursor: pointer;
-  position: relative;
-  transform: translate(-1px, 4px);
   text-underline-offset: 12px;
   border-bottom: 1px solid black;
   text-decoration: none;
+  padding-top: 2.3px;
 }
 
 .about {
   display: grid;
   grid-template-columns: min-content 1fr;
-  margin-bottom: 180px;
-  padding: 35px 0 0 70px;
+  margin-bottom: 175.6px;
+  padding: 0px 0 0 70px;
 }
 
 .about_logo {
@@ -267,8 +268,6 @@
   margin-right: 40px;
   border-radius: 50%;
   background-color: #000;
-  position: relative;
-  transform: translate(0px, -5px)
 }
 
 .about_logo-image {
@@ -279,7 +278,7 @@
 .about_description {
   grid-column-start: 2;
   grid-column-end: 3;
-  margin-right: 40px;
+  margin-right: 30px;
   padding-top: 103px;
   padding-left: 33px;
   font-size: 20px;
@@ -293,7 +292,6 @@
   font-size: 40px;
   line-height: 1;
   text-transform: uppercase;
-  transform: translate(0px, -2px)
 }
 
 .about_description-text {
@@ -305,26 +303,27 @@
 .about_text {
   font-size: 20px;
   line-height: 1.2;
-  
 }
 
 .footer {
   display: flex;
-  gap: 185px;
-  padding: 0 50px 88px;
-  position: relative;
-  transform: translate(0px, -25px)
+  gap: 176px;
+  padding: 5px 41px 88px;
+}
+
+.first {
+  margin-top: 3.5px;
 }
 
 .footer_links-list {
   position: relative;
-  transform: translate(10px, 0px);
+  width: 170px;
 }
 
 .footer_links-list-item {
   display: flex;
-  justify-content: center;
   list-style-type: none;
+  justify-content: center;
 }
 
 .footer_link {
@@ -337,8 +336,7 @@
   display: flex;
   gap: 48px;
   list-style-type: none;
-  position: relative;
-  transform: translate(10px, 0px);
+  
 }
 
 .footer_social-icon {
@@ -353,17 +351,9 @@
 .address_bottom {
   grid-column-start: 3;
   grid-column-end: 4;
-  width: 230px;
+  width: 247px;
   font-size: 18px;
   line-height: 1.35;
   font-style: normal;
-}
-
-.no-wrap {
-  white-space: nowrap;
-}
-
-.send_help {
-  position: relative;
-  transform: translate(0px, -25px)
+  padding-left: 10px;
 }
