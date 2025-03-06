@@ -166,7 +166,7 @@
   margin-left: 40px;
   font-weight: bold;
   font-size: 40px;
-  line-height: 1;
+  line-height: 1.174;
   text-transform: uppercase;
 }
 
@@ -284,7 +284,7 @@
 }
 
 .about_title {
-  margin-bottom: 100px;
+  margin-bottom: 105px;
   color: #000;
   font-weight: bold;
   font-size: 40px;
@@ -295,7 +295,7 @@
 .about_description-text {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 23px;
 }
 
 .about_text {
@@ -307,10 +307,6 @@
   display: flex;
   gap: 176px;
   padding: 5px 41px 88px;
-}
-
-.first {
-  margin-top: 3.5px;
 }
 
 .footer_links-list {
